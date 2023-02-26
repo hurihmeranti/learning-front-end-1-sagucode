@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
     /* font-family: 'Tilt Neon', cursive; */
 }
 
@@ -14,6 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 
@@ -71,6 +73,7 @@ section {
     font-family: 'Tilt Neon', 'cursive';
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 section:before {
@@ -109,6 +112,7 @@ section img#mountains_front {
     margin-top: 2.6em;
     position: absolute;
     z-index: 9;
+    right: -350px;
     font-weight: bolder;
 }
 
@@ -123,13 +127,13 @@ section img#mountains_front {
     transform: translateY(200px);
     text-decoration: none;
     font-weight: bold;
-    z-index: 9;
+    
 }
 
 .sec {
     position: relative;
     padding: 100px;
-    background: #0F6292;
+    background: #282669;
 }
 
 .sec h2 {
